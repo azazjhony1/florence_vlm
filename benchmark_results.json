@@ -1,0 +1,74 @@
+{
+  "baseline": {
+    "description": "Baseline Florence-2-base model (FP32, full resolution)",
+    "metrics": {
+      "image_loading_time": 0.07093921420164406,
+      "image_preprocessing_time": 0.17639552289620042,
+      "text_tokenization_time": 0.0,
+      "vision_patch_embed_time": 0.0,
+      "vision_encoder_time": 4.76585209285753,
+      "vision_encoder_per_stage": [],
+      "position_embedding_time": 0.0,
+      "temporal_embedding_time": 0.0,
+      "projection_time": 2.0425080397960844,
+      "text_embedding_time": 0.0,
+      "embedding_merge_time": 0.0,
+      "encoder_forward_time": 3.6660400714288697,
+      "decoder_forward_time": 5.1020290537853725,
+      "prefill_time": 10.474400204082485,
+      "decode_time": 5.1020290537853725,
+      "first_token_time": 10.474400204082485,
+      "subsequent_tokens_time": [],
+      "avg_token_time": 0.5668921170872636,
+      "total_generation_time": 15.576429257867858,
+      "num_tokens_generated": 9,
+      "num_decode_tokens": 8,
+      "decoding_time": 0.00022544292733073235,
+      "post_processing_time": 2.7647940441966057e-05,
+      "total_time": 15.824017085833475,
+      "peak_memory_mb": 0.0,
+      "image_size": [
+        1188,
+        741
+      ],
+      "task": "<CAPTION>",
+      "device": "cpu"
+    }
+  },
+  "opt1_quantization": {
+    "description": "INT8 Dynamic Quantization (~2-3x faster on CPU)",
+    "metrics": {
+      "image_loading_time": 0.011482636909931898,
+      "image_preprocessing_time": 0.05434676492586732,
+      "text_tokenization_time": 0.0,
+      "vision_patch_embed_time": 0.0,
+      "vision_encoder_time": 2.9864130699860914,
+      "vision_encoder_per_stage": [],
+      "position_embedding_time": 0.0,
+      "temporal_embedding_time": 0.0,
+      "projection_time": 1.279891315708325,
+      "text_embedding_time": 0.0,
+      "embedding_merge_time": 0.0,
+      "encoder_forward_time": 2.297240823066224,
+      "decoder_forward_time": 3.665804212343776,
+      "prefill_time": 6.56354520876064,
+      "decode_time": 3.665804212343776,
+      "first_token_time": 6.56354520876064,
+      "subsequent_tokens_time": [],
+      "avg_token_time": 0.36658042123437756,
+      "total_generation_time": 10.229349421104416,
+      "num_tokens_generated": 10,
+      "num_decode_tokens": 9,
+      "decoding_time": 0.00020729494281113148,
+      "post_processing_time": 2.4685170501470566e-05,
+      "total_time": 10.295410803053528,
+      "peak_memory_mb": 0.0,
+      "image_size": [
+        1188,
+        741
+      ],
+      "task": "<CAPTION>",
+      "device": "cpu"
+    }
+  }
+}

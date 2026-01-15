@@ -1,0 +1,35 @@
+[
+  {
+    "image_loading_time": 0.013613740999971924,
+    "image_preprocessing_time": 0.05522086299970397,
+    "text_tokenization_time": 0.0,
+    "vision_patch_embed_time": 0.0,
+    "vision_encoder_time": 4.681008760154944,
+    "vision_encoder_per_stage": [],
+    "position_embedding_time": 0.0,
+    "temporal_embedding_time": 0.0,
+    "projection_time": 2.0061466114949758,
+    "text_embedding_time": 0.0,
+    "embedding_merge_time": 0.0,
+    "encoder_forward_time": 3.6007759693499564,
+    "decoder_forward_time": 2.7617940400000407,
+    "prefill_time": 10.287931340999876,
+    "decode_time": 2.7617940400000407,
+    "first_token_time": 10.287931340999876,
+    "subsequent_tokens_time": [],
+    "avg_token_time": 0.5523588080000081,
+    "total_generation_time": 13.049725380999917,
+    "num_tokens_generated": 5,
+    "num_decode_tokens": 4,
+    "decoding_time": 0.0002595730002212804,
+    "post_processing_time": 2.5221999749192037e-05,
+    "total_time": 13.118844779999563,
+    "peak_memory_mb": 0.0,
+    "image_size": [
+      800,
+      599
+    ],
+    "task": "<CAPTION>",
+    "device": "cpu"
+  }
+]
